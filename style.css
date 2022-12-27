@@ -1,0 +1,15 @@
+body {
+  display: flex;
+}
+
+#left {
+  width: 35%;
+}
+
+#right {
+width: 65%;
+}
+
+#shaded-bar {
+  display: flex;
+}
