@@ -20,7 +20,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px;
 }
 
 #img-odin {
@@ -46,7 +46,23 @@ body {
 }
 
 #right {
-width: 65%;
+  width: 65%;
+  margin: auto;
+}
+
+#right-top {
+  background: lightgray;
+  padding: 0px 30px;
+}
+
+#right-middle {
+  background: white;
+  padding: 0px 30px;
+}
+
+#right-bottom {
+  background: lightgray;
+  padding: 0px 30px;
 }
 
 #shaded-bar {
