@@ -1,9 +1,10 @@
 body {
   display: flex;
+  margin: auto;
 }
 
 #left {
-  background-image: url(fern-photo.jpg);
+  background: no-repeat url(fern-photo.jpg);
   color: white;
   width: 35%;
 }
