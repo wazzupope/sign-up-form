@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Norse-Bold";
+  src: url(Norse-Bold.otf);
+}
+
 body {
   display: flex;
   margin: auto;
@@ -11,9 +16,15 @@ body {
 
 #header {
   background: rgba(0, 0, 0, 0.5);
+  font-family: "Norse-Bold";
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 10px 0px 10px 0px;
+}
+
+#img-odin {
+  height: 100px;
 }
 
 #left {
@@ -28,6 +39,12 @@ body {
   align-items: center;
 }
 
+#odin-text {
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+
 #right {
 width: 65%;
 }
@@ -35,4 +52,6 @@ width: 65%;
 #shaded-bar {
   display: flex;
   height: 100px;
+  align-items: center;
+  font-size: 50px;
 }
