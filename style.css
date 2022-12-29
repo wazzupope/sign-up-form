@@ -3,6 +3,11 @@ body {
   margin: auto;
 }
 
+#footer {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
 #left {
   background: no-repeat url(fern-photo.jpg);
   background-size: cover;
@@ -12,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  align-items: center;
 }
 
 #right {
@@ -21,6 +27,5 @@ width: 65%;
 #shaded-bar {
   display: flex;
   height: 100px;
-  justify-content: center;
-  margin-bottom: 500px;
+  margin-bottom: 450px;
 }
