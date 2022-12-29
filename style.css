@@ -5,7 +5,9 @@ body {
 
 #left {
   background: no-repeat url(fern-photo.jpg);
+  background-size: cover;
   color: white;
+  height: 100vh;
   width: 35%;
 }
 
