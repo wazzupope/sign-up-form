@@ -10,7 +10,7 @@ body {
 }
 
 #header {
-  background: black;
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   display: flex;
   justify-content: center;
