@@ -11,6 +11,16 @@ body {
 
 .info {
   margin: 0px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#acct-button {
+  font-size: 14px;
+}
+
+#acct-info {
+  font-size: 14px;
 }
 
 #footer {
@@ -30,6 +40,10 @@ body {
 
 #img-odin {
   height: 100px;
+}
+
+#input-form {
+  font-size: 12px;
 }
 
 #left {
@@ -53,6 +67,7 @@ body {
 #right {
   width: 65%;
   margin: 0px auto;
+  font-family: 'Helvetica', sans-serif;
 }
 
 #right-top {
