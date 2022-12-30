@@ -24,7 +24,7 @@ body {
 }
 
 #do-this {
-  margin: 0px;
+  margin: 20px 0px;
 }
 
 #footer {
@@ -77,12 +77,17 @@ body {
   width: 65%;
   margin: 0px auto;
   font-family: 'Helvetica', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 #right-top {
   background: rgba(249, 250, 251, 1);
   padding: 0px 150px 0px 50px;
   height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 #right-middle {
@@ -105,5 +110,5 @@ body {
 }
 
 #want-to {
-  margin: 0px;
+  margin: 20px 0px 50px 0px;
 }
