@@ -15,6 +15,13 @@ body {
   font-size: 20px;
 }
 
+.form-div {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 5px 0px;
+}
+
 #acct-button {
   background: #596D48;
   color: white;
@@ -57,6 +64,8 @@ body {
 #input-form {
   font-size: 12px;
   color: gray;
+  display: grid;
+  grid-template-columns: 300px 300px;
 }
 
 #left {
