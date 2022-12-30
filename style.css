@@ -57,19 +57,19 @@ body {
 
 #right-top {
   background: rgba(249, 250, 251, 1);
-  padding: 0px 30px;
+  padding: 0px 150px 0px 50px;
   height: 35%;
 }
 
 #right-middle {
   background: white;
-  padding: 0px 30px;
+  padding: 0px 150px 0px 50px;
   height: 30%;
 }
 
 #right-bottom {
   background: rgba(249, 250, 251, 1);
-  padding: 0px 30px;
+  padding: 0px 150px 0px 50px;
   height: 33%;
 }
 
