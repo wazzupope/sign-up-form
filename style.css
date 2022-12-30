@@ -44,6 +44,8 @@ body {
 
 #input-form {
   font-size: 12px;
+  font-weight: 500px;
+  color: gray;
 }
 
 #left {
