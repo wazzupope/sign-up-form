@@ -16,7 +16,15 @@ body {
 }
 
 #acct-button {
+  background: #596D48;
+  color: white;
+  border: none;
+  border-radius: 5px;
   font-size: 14px;
+  margin: 30px 0px;
+  height: 40px;
+  width: 200px;
+  padding: 10px 25px;
 }
 
 #acct-info {
@@ -63,6 +71,12 @@ body {
   align-items: center;
 }
 
+#login {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: 700;
+}
+
 #not-real {
   margin: 0px;
 }
@@ -100,6 +114,8 @@ body {
   background: rgba(249, 250, 251, 1);
   padding: 0px 150px 0px 50px;
   height: 33%;
+  display: flex;
+  flex-direction: column;
 }
 
 #shaded-bar {
