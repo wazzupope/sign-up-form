@@ -6,6 +6,7 @@
 body {
   display: flex;
   margin: auto;
+  background: black;
 }
 
 #footer {
@@ -51,7 +52,7 @@ body {
 }
 
 #right-top {
-  background: lightgray;
+  background: rgba(249, 250, 251, 1);
   padding: 0px 30px;
 }
 
@@ -61,7 +62,7 @@ body {
 }
 
 #right-bottom {
-  background: lightgray;
+  background: rgba(249, 250, 251, 1);
   padding: 0px 30px;
 }
 
