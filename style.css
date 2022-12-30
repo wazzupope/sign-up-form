@@ -52,22 +52,25 @@ body {
 
 #right {
   width: 65%;
-  margin: auto;
+  margin: 0px auto;
 }
 
 #right-top {
   background: rgba(249, 250, 251, 1);
   padding: 0px 30px;
+  height: 35%;
 }
 
 #right-middle {
   background: white;
   padding: 0px 30px;
+  height: 30%;
 }
 
 #right-bottom {
   background: rgba(249, 250, 251, 1);
   padding: 0px 30px;
+  height: 33%;
 }
 
 #shaded-bar {
