@@ -19,7 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 200px;
-  margin: 5px 0px;
+  margin: 10px 0px;
 }
 
 #acct-button {
@@ -39,7 +39,7 @@ body {
 }
 
 #do-this {
-  margin: 20px 0px;
+  margin-top: 20px;
 }
 
 #footer {
