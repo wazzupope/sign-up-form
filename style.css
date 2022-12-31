@@ -13,18 +13,19 @@ body {
   display: flex;
   flex-direction: column;
   width: 200px;
-  margin: 10px 0px;
+  padding: 8px 0px;
 }
 
 .info {
   margin: 0px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .input-field {
   border:1px solid rgba(234, 237, 240, 1);
   border-radius: 5px;
+  padding: 5px;
 }
 
 #acct-button {
@@ -147,7 +148,10 @@ body {
 }
 
 /*
-passwords need an error class with border: 1px solid red;
+passwords need an error class with:
+  border: 1px solid red;
+  font-size: 8px;
+  color: red;
 use :focus pseudo class to adjust border and box shadow for selected input field
   border: 1px solid blue;
   box-shadow - need to look at how to make it skew to right and down only, 0px with 3px fade, use same gray as on right-middle
