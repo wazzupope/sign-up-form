@@ -50,6 +50,10 @@ body {
   padding: 10px 25px;
 }
 
+#acct-button:active {
+  transform: scale(0.98);
+}
+
 #acct-info {
   font-size: 14px;
 }
@@ -158,11 +162,8 @@ body {
 }
 
 /*
-add line under invalid password (conditions should be minlength=8 and confirm password is equal to password:
+add line under invalid password (conditions should be minlength=8 and confirm password equal to password:
   font-size: 8px;
   color: red;
-use :focus pseudo class to adjust border and box shadow for selected input field
-  box-shadow - need to look at how to make it skew to right and down only, 0px with 3px fade, use same gray as on right-middle
 Create account button should submit form - is that possible if the button isn't within the same form tag?
-Click effect for create account button so you can see that it's being clicked
 */
