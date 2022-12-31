@@ -30,6 +30,8 @@ body {
 
 .input-field:focus {
   border: 1px solid blue;
+  box-shadow: 1px 1px 3px grey;
+  outline-style: none;
 }
 
 .input-field:invalid {
@@ -162,4 +164,5 @@ add line under invalid password (conditions should be minlength=8 and confirm pa
 use :focus pseudo class to adjust border and box shadow for selected input field
   box-shadow - need to look at how to make it skew to right and down only, 0px with 3px fade, use same gray as on right-middle
 Create account button should submit form - is that possible if the button isn't within the same form tag?
+Click effect for create account button so you can see that it's being clicked
 */
