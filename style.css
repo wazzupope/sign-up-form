@@ -145,3 +145,10 @@ body {
 #want-to {
   margin: 20px 0px 50px 0px;
 }
+
+/*
+passwords need an error class with border: 1px solid red;
+use :focus pseudo class to adjust border and box shadow for selected input field
+  border: 1px solid blue;
+  box-shadow - need to look at how to make it skew to right and down only, 0px with 3px fade, use same gray as on right-middle
+*/
